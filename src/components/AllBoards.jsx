@@ -13,6 +13,7 @@ export default function AllBoards({boards}) {
 
   useEffect(() => {
     setCurrentPost(boards.slice(indexOfFirstPost, indexOfLastPost))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [boards, page])
 
   return (
