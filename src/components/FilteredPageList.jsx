@@ -12,11 +12,11 @@ export default function FilteredPageList({board, index}) {
       <div className='flex justify-between'>
         <div className='flex items-center ml-2'>
           <span>{index}</span>
-          <p className='ml-16'>{board.title}</p>
+          <p className='flex-grow mx-6 md:ml-16'>{board.title}</p>
         </div>
         <div className='flex items-center'>
-          <p className='mr-6'>{board.writer}</p>
-          <p className='flex items-center px-2 '><IoIosTimer />{date}</p>
+          <p className='mr-6 flex-shrink-0 md:mr-6'>{board.writer}</p>
+          <p className='hidden md:flex items-center px-2 truncate'><IoIosTimer />{date}</p>
         </div>
       </div>
     </li>
