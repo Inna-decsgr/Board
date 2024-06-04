@@ -30,4 +30,4 @@
 
 
 ### 배포 링크📌
-https://papaya-gumdrop-a6f658.netlify.app
+https://master--vermillion-crumble-39a82f.netlify.app/
