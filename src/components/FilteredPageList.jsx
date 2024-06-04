@@ -8,7 +8,7 @@ export default function FilteredPageList({board, index}) {
   
 
   return (
-    <li className='mb-4  pl-5 cursor-pointer border-b border-gray-200 pb-2' onClick={() => {navigate(`/board/detail/${board.id}`, {state:{board}})}}>
+    <li className='mb-4 pl-5 cursor-pointer border-b border-gray-200 pb-2' onClick={() => {navigate(`/board/detail/${board.id}`, {state:{board}})}}>
       <div className='flex justify-between'>
         <div className='flex items-center ml-2'>
           <span>{index}</span>
