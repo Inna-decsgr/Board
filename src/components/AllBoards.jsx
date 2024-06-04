@@ -17,13 +17,12 @@ export default function AllBoards({boards}) {
   }, [boards, page])
 
   return (
-    <section className='h-96'>
+    <section>
       {currentPost && <ul className='h-full'>
         {currentPost && currentPost.map((board, index) => <PageList key={board.id} index={index} board={board}/>)}
       </ul>}
-
-      <section className='mt-48'>
-        <Pagination 
+      <section className='mt-8 mb-48'>
+        <Pagination
           activePage={page}  
           itemsCountPerPage={10}
           totalItemsCount={boards?.length}  
@@ -31,7 +30,6 @@ export default function AllBoards({boards}) {
           onChange={(page) => setPage(page)} 
         />
       </section>
-
     </section>
   );
 }

@@ -14,8 +14,8 @@ export default function Header() {
 
 
   return (
-    <header className='flex justify-between mt-20  pb-3 mb-3 text-main'>
-      <div className='flex items-center text-2xl'>
+    <header className='flex flex-col md:flex-row justify-between mt-20 pb-3 mb-3 text-main'>
+      <div className='flex flex-row items-center text-2xl'>
         <FaRegClipboard />
         <h1 className='ml-2 font-bold'>게시판</h1>
       </div>

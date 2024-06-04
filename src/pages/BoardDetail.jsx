@@ -26,10 +26,10 @@ export default function BoardDetail() {
 
   return (
     <>
-      <div className='flex items-center mt-16 border-t-2 border-gray-900'>
+      <div className='flex items-center mt-8 md:mt-16 border-t-2 border-gray-900'>
         <h1 className='text-main font-semibold text-2xl border-b border-gray-300 my-4 pb-4 w-full'> {title}</h1>
       </div>
-      <div className='flex items-center border-b pb-2'>
+      <div className='md:flex items-center border-b pb-2'>
         <div className='flex items-center'>
           <p className='py-2 text-gray-500'>작성자 : </p>
           <span className='pl-2 mr-6'>{writer}</span>
